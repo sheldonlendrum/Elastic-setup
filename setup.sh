@@ -1,9 +1,11 @@
-!#/bin/bash
+#!/bin/bash
 
-#CONFIG
+#CONFIG - Edit this to suit your needs.
 elkversion=7.4.0
 elasticserver="192.168.10.38:9200"
 kibanaserver="192.168.10.38:80"
+
+
 
 # Packages
 metricbeatpkg="metricbeat-$elkversion-amd64.deb"
